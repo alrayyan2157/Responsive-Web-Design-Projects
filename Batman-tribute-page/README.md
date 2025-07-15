@@ -20,16 +20,12 @@ A simple HTML and CSS project that pays tribute to Batman, the iconic superhero 
 
 ## Getting Started
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/alrayyan2157/batman-tribute-page.git
-   ```
-2. **Open `index.html` in your browser.**
+**Open `index.html` in your browser.**
 
 ## Preview
 
 ![Screenshot of Batman Tribute Page](https://cdn.pixabay.com/photo/2024/06/22/16/55/ai-generated-8846672_1280.jpg)
-[View the Tribute Page live](https://alrayyan2157.github.io/batman-tribute-page/)
+[View the Tribute Page live](https://codepen.io/alrayyan2157/full/raOVzww)
 
 ## Credits
 
