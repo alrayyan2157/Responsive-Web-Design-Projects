@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ProCV Resume Builder</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="images/ProCV logo.png" alt="ProCV Logo">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-link"><a href="#features">Features</a></li>
+                <li class="nav-link"><a href="#How-it-Works">How It Works</a></li>
+                <li class="nav-link"><a href="#Pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="grid">
+                <div class="intro-text">
+                    <h1>Build Your Resume in Minutes</h1>
+                    <p>Professional, modern templates that land interviews.</p>
+                    <button class="btn">Get Started</button>
+                </div>
+                <div class="intro-image">
+                    <img src="images/interface-3614766_1280.png" alt="Resume Builder Interface">
+                </div>
+
+            </div>
+        </section>
+        <section class="features" id="features">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fa-solid fa-layer-group fa-3x" style="color:#2f6cc7;"></i>
+                    <h3>Customizable Templates</h3>
+                    <p>Choose from a variety of professional templates.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-pen-to-square fa-3x" style="color:#2f6cc7;"></i>
+                    <h3>Easy Editing</h3>
+                    <p>Drag and drop to create your perfect resume.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-file-arrow-down fa-3x" style="color:#2f6cc7;"></i>
+                    <h3>Download Options</h3>
+                    <p>Export your resume in PDF or Word format.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="how-it-works" id="How-it-Works">
+            <h2>How It Works</h2>
+            <div class="how-video" style="text-align:center; margin:2rem 0;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                    title="How ProCV Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen id="video"></iframe>
+            </div>
+        </section>
+        <section class="pricing" id="Pricing">
+            <h2>Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-item">
+                    <h3>Free</h3>
+                    <p>Basic templates and features.</p>
+                    <button class="btn">Get Started</button>
+                </div>
+                <div class="pricing-item">
+                    <h3>Pro</h3>
+                    <p>Advanced templates and features.</p>
+                    <button class="btn">Upgrade Now</button>
+                </div>
+            </div>
+        </section>
+       <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    class="email-input"
+                    placeholder="Enter your email address"
+                    required
+                >
+                <input 
+                    type="submit" 
+                    id="submit" 
+                    class="btn"
+                    value="Submit"
+                >
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 ProCV. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</html>
