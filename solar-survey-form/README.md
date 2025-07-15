@@ -24,7 +24,7 @@ It collects user feedback on solar products and services.
 
 ## Live Demo
 
-[View the survey form live](https://alrayyan2157.github.io/solar-survey-form/)
+[View the survey form live](https://codepen.io/alrayyan2157/full/WbQvEzw)
 
 ## License
 
